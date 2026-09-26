@@ -2,6 +2,22 @@
 
 This small, safe example uses Terraform's **local provider** to create a text file on your computer. It does not create cloud resources or incur cloud costs. Terraform still downloads the provider plugin during initialization.
 
+## Install Terraform
+
+Install Terraform before starting this example. Follow HashiCorp's [official installation guide](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) for Windows, macOS, or Linux.
+
+On Windows, if you have [Chocolatey](https://chocolatey.org/) installed, you can install Terraform from PowerShell:
+
+```powershell
+choco install terraform
+```
+
+After installation, open a new terminal and verify that Terraform is available:
+
+```powershell
+terraform version
+```
+
 ## Prerequisites
 
 - Terraform CLI 1.5 or newer installed and available on your `PATH`.
